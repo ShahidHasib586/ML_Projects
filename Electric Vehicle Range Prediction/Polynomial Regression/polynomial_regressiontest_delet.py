@@ -7,7 +7,6 @@ from matplotlib import pyplot as plt
 # Importing the dataset
 dataset = pd.read_csv('M.csv')
 
-
 #Fast Charge vs Electric Range 
 X = dataset.iloc[:, 13:-1].values
 y = dataset.iloc[:, -1].values
