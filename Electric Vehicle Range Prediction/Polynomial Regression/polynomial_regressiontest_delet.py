@@ -11,7 +11,6 @@ dataset = pd.read_csv('M.csv')
 X = dataset.iloc[:, 13:-1].values
 y = dataset.iloc[:, -1].values
 
-
 #spliting the dataset into training and testing set
 from sklearn.model_selection import train_test_split
 
